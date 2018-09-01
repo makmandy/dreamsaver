@@ -1,10 +1,10 @@
 import React from "react";
 import Oxygen from "react-oxygen-ui-kit";
 
-const { Container, Input, Row } = Oxygen.default;
+const { Button, Container, Input, Row, Well } = Oxygen.default;
 
 const Contact = props => (
-  <div>
+  <Well large="true">
     <Row>
       <Container>
         name <Input border="false" />
@@ -22,7 +22,11 @@ const Contact = props => (
         message <Input border="false" />
       </Container>
     </Row>
-  </div>
+    <br />
+    <Row>
+      <Button blue="true">send</Button>
+    </Row>
+  </Well>
 );
 
 export default Contact;
