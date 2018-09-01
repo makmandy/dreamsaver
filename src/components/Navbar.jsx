@@ -2,32 +2,29 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Oxygen from "react-oxygen-ui-kit";
 
-const { Menu, MenuItem, MenuSeparator } = Oxygen.default;
+const { Menu, MenuItem } = Oxygen.default;
 const linkStyle = {
   textDecoration: "none",
-  color: "#2c3e50"
+  color: "#3F4F5F"
 };
 
 const Navbar = props => (
   <Menu small="true">
     <MenuItem button="true">
-      <Link to="/home" style={linkStyle}>
+      <Link to="/" style={linkStyle}>
         home
       </Link>
     </MenuItem>
-    <MenuSeparator />
     <MenuItem button="true">
       <Link to="/about" style={linkStyle}>
         about
       </Link>
     </MenuItem>
-    <MenuSeparator />
     <MenuItem button="true">
       <Link to="/shop" style={linkStyle}>
         shop
       </Link>
     </MenuItem>
-    <MenuSeparator />
     <MenuItem button="true">
       <Link to="/contact" style={linkStyle}>
         contact

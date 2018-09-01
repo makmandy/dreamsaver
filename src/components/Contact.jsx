@@ -7,6 +7,11 @@ const Contact = props => (
   <Well large="true">
     <Row>
       <Container>
+        <h3>contact us</h3>
+      </Container>
+    </Row>
+    <Row>
+      <Container>
         name <Input border="false" />
       </Container>
     </Row>
@@ -24,7 +29,7 @@ const Contact = props => (
     </Row>
     <br />
     <Row>
-      <Button blue="true">send</Button>
+      <Button>send</Button>
     </Row>
   </Well>
 );
