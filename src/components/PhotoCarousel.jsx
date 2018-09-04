@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 
-class SimpleSlider extends React.Component {
+class PhotoCarousel extends React.Component {
   render() {
     var settings = {
       dots: true,
@@ -20,7 +20,7 @@ class SimpleSlider extends React.Component {
           <img objectFit="contain" height="300px" src="https://www.nationalgeographic.com/content/dam/travel/2017-digital/iceland-myths/trolls-toes-reynisdrangar-vik-iceland.ngsversion.1502219625114.adapt.1900.1.jpg" />
         </div>
         <div>
-          <h3>2</h3>
+          <img objectFit="contain" height="300px" src="https://www.eurovoix.com/wp-content/uploads/2017/04/Iceland.jpg" />
         </div>
         <div>
           <h3>3</h3>
@@ -39,4 +39,4 @@ class SimpleSlider extends React.Component {
   }
 }
 
-export default SimpleSlider;
+export default PhotoCarousel;

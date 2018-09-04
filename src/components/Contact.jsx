@@ -4,34 +4,35 @@ import Oxygen from "react-oxygen-ui-kit";
 const { Button, Container, Input, Row, Well } = Oxygen.default;
 
 const Contact = props => (
-  <Well large="true">
-    <Row>
-      <Container>
-        <h3>contact us</h3>
-      </Container>
-    </Row>
-    <Row>
-      <Container>
-        name <Input border="false" />
-      </Container>
-    </Row>
-    <br />
-    <Row>
-      <Container>
-        email <Input border="false" />
-      </Container>
-    </Row>
-    <br />
-    <Row>
-      <Container>
-        message <Input border="false" />
-      </Container>
-    </Row>
-    <br />
-    <Row>
-      <Button>send</Button>
-    </Row>
-  </Well>
+  <Container>
+    <Well large="true">
+    <div style={{
+      fontSize: 20,
+      fontWeight: 600
+    }}>contact us</div>&nbsp;
+      <Row>
+        <Container>
+          name <Input border="false" />
+        </Container>
+      </Row>
+      &nbsp;
+      <Row>
+        <Container>
+          email <Input border="false" />
+        </Container>
+      </Row>
+      &nbsp;
+      <Row>
+        <Container>
+          message <Input border="false" />
+        </Container>
+      </Row>
+      &nbsp;
+      <Row>
+        <Button>send</Button>
+      </Row>
+    </Well>
+  </Container>
 );
 
 export default Contact;
