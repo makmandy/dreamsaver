@@ -18,10 +18,10 @@ const Footer = props => (
     >
       &copy; 2018 dreamsaver
       <br />
-      <a href="twitter.com/" style={linkStyle}>
+      <a href="http://twitter.com/" style={linkStyle}>
         <i class="flaticon-twitter-logo-on-black-background" />
       </a>
-      <a href="instagram.com" style={linkStyle}>
+      <a href="http://instagram.com" style={linkStyle}>
         <i class="flaticon-instagram-social-network-logo-of-photo-camera" />
       </a>
     </Container>

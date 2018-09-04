@@ -4,9 +4,9 @@ import Oxygen from "react-oxygen-ui-kit";
 const { Container, Well } = Oxygen.default;
 
 const About = props => (
-  <Well large="true">
-    <Container>about</Container>
-  </Well>
+  <Container>
+    <Well large="true">about</Well>
+  </Container>
 );
 
 export default About;
